@@ -1,1 +1,0 @@
-# sq-comp-challenge-3
