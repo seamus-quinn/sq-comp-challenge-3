@@ -1,3 +1,147 @@
 * {
   margin: 0;
+  box-sizing: content-box;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 160px 5fr;
+}
+
+.left-side {
+
+}
+
+.right-side {
+
+}
+
+/*=====================================================
+      Nav-Bar Formatting
+=======================================================*/
+
+.nav-bar-main {
+  width: 100%;
+  height: 200vw;
+  background: gold;
+}
+
+.profile {
+  width: 100%;
+  height: 160px;
+  background: navy;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.profile-div {
+  width: 80px;
+  height: 80px;
+  background-image: url(../images/kip.jpg);
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%;
+}
+
+.main {
+  width: 100%;
+  height: 240px;
+  background-color: teal;
+}
+
+.community {
+  width: 100%;
+  height: 240px;
+  background-color: orange;
+}
+
+.company {
+  width: 100%;
+  height: 240px;
+  background-color: maroon;
+}
+
+/*=====================================================
+      Search-Bar Formatting
+=======================================================*/
+
+.search-bar {
+  width: 100%;
+  height: 80px;
+  background: green;
+  display: grid;
+  grid-template-columns: 80px 1fr 80px 80px 80px
+}
+
+.access-nav-bar {
+  width: 100%;
+  height: 80px;
+  background: #fd8342;
+  margin-right: auto;
+}
+
+input {
+  width: 100%;
+  height: 80px;
+}
+
+.profile-button {
+  width: 100%;
+  height: 80px;
+  background: #837895;
+}
+
+.calendar {
+  width: 100%;
+  height: 80px;
+  background: #837828;
+}
+
+.matches {
+  width: 100%;
+  height: 80px;
+  background: #844444;
+}
+
+/*=====================================================
+      Info Formatting
+=======================================================*/
+
+.info {
+  width: 100%;
+  height: 20vw;
+  background: lavender;
+}
+
+/*=====================================================
+      Stats Formatting
+=======================================================*/
+
+.stats {
+  width: 100%;
+  height: 30vw;
+  background: purple;
+}
+
+/*=====================================================
+      In-Depth Formatting
+=======================================================*/
+
+.in-depth {
+  width: 100%;
+  height: 50vw;
+  background: magenta;
+}
+
+
+
+
+
+
+
+
+
+
