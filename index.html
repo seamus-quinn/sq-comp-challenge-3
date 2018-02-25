@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="styles/normalize.css" type="text/css">
+  <link rel="stylesheet" href="./images/fontello/css/for.css">
+  <link rel="stylesheet" href="./images/fontello/css/iclassicon-firei-ie7-codes.css">
   <link rel="stylesheet" href="styles/styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,1000,700" rel="stylesheet">
   <title>E M B E R</title>
 </head>
 <body>
@@ -11,55 +14,245 @@
   <main>
     <aside class="left-side">
       <section class="nav-bar-main">
+
         <article class="profile">
           <div class="profile-div">
           </div>
-          <p class="name-menu">Kip Dynamite</p>
+          <p class="name-menu">Kip Dynamite<i class="icon-down-open"></i></p>
         </article>
-        <article class="main"></article>
-        <article class="community"></article>
-        <article class="company"></article>
+
+        <article class="main">
+          <h1 class="main-header">Main</h1>
+          <ul class="main-list">
+            <li class="nav-item"><i class="nav-icon icon-home"></i> HOME</li>
+            <li class="nav-item"><i class="nav-icon icon-heart"></i> MATCHES</li>
+            <li class="nav-item"><i class="nav-icon icon-beaker"></i> EXPLORE</li>
+            <li class="nav-item"><i class="nav-icon icon-fire"></i> FLAMES</li>
+            <li class="nav-item"><i class="nav-icon icon-calendar"></i> CALENDAR</li>
+          </ul>
+        </article>
+
+        <article class="community">
+          <h1 class="community-header">Community</h1>
+          <ul class="community-list">
+            <li class="nav-item"><i class="nav-icon icon-users"></i>USERS</li>
+            <li class="nav-item"><i class="nav-icon icon-location"></i>LOCATIONS</li>
+            <li class="nav-item"><i class="nav-icon icon-calendar"></i>CALENDAR</li>
+            <li class="nav-item"><i class="nav-icon icon-basket"></i>SHOP</li>
+            <li class="nav-item"><i class="nav-icon icon-share"></i>SOCIAL</li>
+          </ul>
+        </article>
+
+        <article class="type">
+          <h1 class="type-header">Type</h1>
+          <form action="">
+            <div class="form">
+              <input class="checkbox checkbox-men" type="checkbox">
+              <div class="form-text">Men</div>
+            </div>
+            <div class="form">
+                <input class="checkbox checkbox-women" type="checkbox">
+                <div class="form-text">Women</div>
+            </div>
+            <div class="form">
+                <input class="checkbox checkbox-both" type="checkbox">
+                <div class="form-text">Men & Women</div>
+            </div>
+            <div class="form">
+                <input class="checkbox checkbox-neither" type="checkbox">
+                <div class="form-text">Neither</div>
+            </div>
+          </form>
+
+        </article>
+
       </section>
     </aside>
     
     <aside class="right-side">
+
       <section class="search-bar">
-        <button class="access-nav-bar"></button>
+        <button class="search-bar-button access-nav-bar">
+          <i class="icon-menu"></i>
+        </button>
         <form action="">
-          <input type="search">
+          <input class="search-bar-button search-bar-bar"type="search" placeholder="&#xf50d;&nbsp; Search for babes">
         </form>
-        <button class="profile-button"></button>
-        <button class="calendar"></button>
-        <button class="matches"></button>
+        <button class="search-bar-button home">
+          <i class="icon-home"></i>
+        </button>
+        <button class="search-bar-button messages">
+          <i class="icon-comment"></i>
+        </button>
+        <button class="search-bar-button matches">
+          <i class="icon-fire"></i>
+        </button>
       </section>
 
       <section class="info">
-      <article class="header">
-      <h1></h1>
-      <p></p>
-      </article>
-      <article class="button-container">
-      <button></button>
-      <button></button>
-      <button></button>
-      <button></button>
-      </article>
-      <article class="nav-bar-info">
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      </article>
+        <div class="info-top">
+          <article class="info-info">
+            <h1 class="info-header">Cage-Fighter in Training</h1>
+            <p class="info-sub-header"><i class="icon-location"></i>Preston, ID • <a class="preview-link" href="https://tinder.com/">Preview this post</a></p>
+          </article>
+          <article class="button-container">
+            <button class="info-button open-button"><span class="green-dot"> • </span><span class="open">OPEN</span></button>
+            <button class="info-button pin-button"><i class="icon-pin"></i></button>
+            <button class="info-button edit-button"><i class="icon-pencil"></i></button>
+            <button class="info-button crown-button"><i class="icon-crown"></i></button>
+          </article>
+        </div>
+        
+
+        <article class="info-navigation">
+          <p class="info-navigation-item">SUMMARY</p>
+          <p class="info-navigation-item">MATCHES</p>
+          <p class="info-navigation-item">EXPERIMENTS</p>
+          <p class="info-navigation-item">PURCHASES</p>
+          <p class="info-navigation-item">PREMIUM</p>
+          <p class="info-navigation-item">LIKES</p>
+          <p class="info-navigation-item">FLAMES</p>
+        </article>
       </section>
 
-      <section class="stats"></section>
+      <section class="stats">
+        <article class="muthafuckin-donuts">
+          <div class="only-donuts">
+            <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#ffffff00"></circle>
+                <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#dae6eb" stroke-width="3"></circle>
+              
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#fd2c7a" stroke-width="3" stroke-dasharray="83 17" stroke-dashoffset="-24"></circle>
+  
+                <g class="chart-text">
+                    <text x="50%" y="46%" class="chart-number">
+                      3,154
+                    </text>
+                    <text x="50%" y="46%" class="chart-label">
+                      APPLICANTS
+                    </text>
+                </g>
+            </svg>
+            <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#ffffff00"></circle>
+                <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#dae6eb" stroke-width="3"></circle>
+              
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke=" #fe5269" stroke-width="3" stroke-dasharray="43 57" stroke-dashoffset="-24"></circle>
+  
+                <g class="chart-text">
+                    <text x="50%" y="46%" class="chart-number">
+                      1,546
+                    </text>
+                    <text x="50%" y="46%" class="chart-label">
+                      DATES
+                    </text>
+                </g>
+            </svg>
+            <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#ffffff00"></circle>
+                <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#dae6eb" stroke-width="3"></circle>
+              
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ff7356" stroke-width="3" stroke-dasharray="20 80" stroke-dashoffset="-24"></circle>
+  
+                <g class="chart-text">
+                    <text x="50%" y="46%" class="chart-number">
+                     912
+                    </text>
+                    <text x="50%" y="46%" class="chart-label">
+                      MATCHES
+                    </text>
+                </g>
+            </svg>
+          </div>
+          <div class="donut-button-div">
+            <button class="donut-button">TOTALS • out of 5,238 views</button>
+          </div>
+        </article>
+        <article class="muthafuckin-bars">
+            
+        </article>
+          
+      </section>
 
-      <section class="in-depth"></section>
+      <section class="in-depth">
+        <article class="profile-description">
+          <div class="table-div">
+              <table class="profile-table">
+                  <tr class="header-row">
+                    <td>PROFILE</td>
+                    <td>
+                        <div class="table-edit">
+                            <i class="icon-pencil"></i>EDIT
+                        </div>
+                    </td>
+                  <tr>
+                      <td>Age</td>
+                      <td>32</td>
+                  <tr>
+                    <td>LOCATION</td>
+                    <td>Preston, ID</td>
+                  </tr>
+                  <tr>
+                    <td>LOOKING FOR</td>
+                    <td>Something Long-Term</td>
+                  </tr>
+                  <tr>
+                    <td>EXPERIENCE</td>
+                    <td>Veteran</td>
+                  </tr>
+                  <tr>
+                    <td>STATUS</td>
+                    <td>Single</td>
+                  </tr>
+                  <tr>
+                    <td>BIO</td>
+                    <td> Why do you love me? Why do you need me? Always and forever... We met in a chatroom, now our love can fully bloom... Sure the world wide web is great, but you, you make my salivate... I love technology, but not as much as you, you see... But I STILL love technology... Always and forever. Our love is like a flock of doves, flying up to heaven above... always and forever, always and forever... Why do you need me? Why do you love me? Always and forever...</td>
+                  </tr>
+                  <tr>
+                    <td>BEST MATCH</td>
+                    <td><img src="" alt="">LaFawnduh Lucas</td>
+                  </tr>
+                  <tr>
+                    <td>EMBER RATING</td>
+                    <td>Red Hot!</td>
+                  </tr>
+                  </tr>
+                </table>
+          </div>
+          
+        </article>
+        <article class="social">
+          <button class="social-button facebook-button">
+            <i class="icon-facebook-squared"></i>
+            Post to Facebook
+          </button>
+          <button class="social-button twitter-button">
+            <i class="icon-twitter-circled"></i>
+            Tweet this Match
+          </button>
+          <button class="social-button instagram-button">
+            <i class="icon-instagram"></i>
+            Share on Instagram
+        </button>
+          <div class="match-div">
+              <h2 class="social-header"><i class="icon-heart"></i>Link to this Match</h2>
+              <p class="social-text top">Congratulations on your match!  To pursue this flame, copy the link below into your messager.</p>
+              <p class="social-text bottom link-to-match">http://www.ember.com/matches/flames/garbage/dump/</p>
+              <button class="copy-button">Copy</button>
+          </div>
+          <div class="mobile-div">
+              <h2 class="social-header "><i class="icon-mobile"></i>Download the App</h2>
+              <p class="social-text top">To download the mobile-app, copy the link below and paste it in the App Store or Google Play.</p>
+              <p class="social-text bottom link-to-mobile">http://www.ember.com/mobile/site/garbage/dump/</p>
+              <button class="copy-button">Copy</button>
+          </div>
+          <div class="contact-div">
+              <h2 class="social-header"><i class="icon-go"></i>Contact Us</h2>
+              <p class="social-text top">Questions? Concerns? Unplanned Pregnancies? Contact us at the email address below.</p>
+              <p class="social-text bottom bottom-different">uraloser@hotmail.com</p>
+          </div>
+        </article>
+      </section>
 
     </aside>
     
