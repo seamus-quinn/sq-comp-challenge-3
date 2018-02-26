@@ -366,13 +366,14 @@ main {
 
 .info-navigation {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   color: #afb4bb;
   margin: 0 30px 0 30px;
 }
 
 .info-navigation-item {
   display: inline-block;
+  margin-right: 20px;
   border: solid 4px #fff;
   height: 30px;
 }
