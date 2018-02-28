@@ -4,8 +4,8 @@ This project is a site called Ember.  Ember is a dating profile site that allows
 
 ## Original Comp
 
-![Original Comp](images/original-comp.png)
+![Original Comp](images/Original-Comp.png)
 
 ## My Comp
 
-![My Comp](images/my-comp.png)
+![My Comp](images/My-Comp.png)
