@@ -27,7 +27,7 @@ Comments on archive content
 
 - demo.html - demo file, to show your webfont content
 
-- LICENSE.txt - license info about source fonts, used to build your one.
+- LICENSE.txt - license header about source fonts, used to build your one.
 
 - config.json - keeps your settings. You can import it back into fontello
   anytime, to continue your work
