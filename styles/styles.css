@@ -206,7 +206,7 @@ main {
 
 .access-nav-bar {
   width: 100%;
-  height: 60px;
+  height: 100%;
   background: #fff;
   margin: 0;
   border: solid 1px #f1f3f5;
@@ -225,7 +225,7 @@ main {
 
 .search-bar-input {
   width: 100%;
-  height: 60px;
+  height: 100%;
   font-size: 16px;
   outline-color: #fd2c7a;
   color: #9499a0;
@@ -242,7 +242,7 @@ main {
 
 .home {
   width: 100%;
-  height: 60px;
+  height: 100%;
   background: #fff;
   border: solid 1px #f1f3f5;
   outline: none;
@@ -257,7 +257,7 @@ main {
 
 .messages {
   width: 100%;
-  height: 60px;
+  height: 100%;
   background: #fff;
   border: solid 1px #f1f3f5;
   outline: none; 
@@ -271,8 +271,8 @@ main {
 }
 
 .matches {
-  width: 60px;
-  height: 60px;
+  width: 100%;
+  height: 100%;
   background: #fff;
   border: solid 1px #f1f3f5;
   outline: none;
@@ -292,7 +292,7 @@ main {
 
 .info {
   width: 100%;
-  height: 180px;
+  height: 100%;
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -305,7 +305,7 @@ main {
 }
 
 .info-info {
-  margin: 40px 0 0 30px;
+  margin: 40px 0 40px 30px;
 }
 
 .info-header {
@@ -394,7 +394,7 @@ main {
 
 .stats {
   width: 100%;
-  height: 400px;
+  height: 100%;
   background: #edf2f6;
   display: flex;
   justify-content: space-around;
@@ -409,13 +409,14 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 300px;
-  margin-top: 50px;
+  height: 100%;
+  margin: 70px 0;
 }
 
 .only-donuts {
   display: flex;
   flex-direction: row;
+  margin-bottom: 50px
 }
 
 .chart-text {
@@ -468,10 +469,6 @@ main {
   border: 2px solid #e2e5e8;
   color: #525c6c;
   font-weight: 600;
-}
-
-.border {
-  
 }
 
 .stats-border {
@@ -664,10 +661,16 @@ td:nth-child(odd) {
   color: #fff;
 }
 
-.icon-facebook-squared,
-.icon-twitter-circled,
+.icon-facebook-squared {
+  margin-right: 23%;
+}
+
+.icon-twitter-circled {
+  margin-right: 23%;
+}
+
 .icon-instagram {
-  margin-right: 45px;
+  margin-right: 20%;
 }
 
 .twitter-button {
@@ -724,7 +727,7 @@ td:nth-child(odd) {
   display: inline-block;
   vertical-align: top;
   height: 45px;
-  width: 60px;
+  width: 19%;
   margin-bottom: 30px;
   background: #48babe;
   border: none;
@@ -743,7 +746,154 @@ td:nth-child(odd) {
   .left-side {
     display: none;
   }
+
+  .stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .in-depth {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social {
+    width: 70%;
+  }
+
+  .social-button {
+    text-align: center;
+  }
+
+  .icon-facebook-squared,
+  .icon-twitter-circled,
+  .icon-instagram {
+    margin-right: 2%;
+  }
+
+  .bottom {
+    width: 77%;
+  }
+
+  .bottom-different {
+    width: 97%;
+  }
+
 }
+
+@media screen and (max-width: 820px) {
+  
+  .search-bar {
+    width: 100%;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 40px 1fr 40px 40px 40px;
+    border: solid 1px #f1f3f5;
+    color: #9499a0;
+  }
+
+  .search-bar-input {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    outline-color: #fd2c7a;
+    color: #9499a0;
+    background-image: url(../images/search.svg);
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: 10px 50%;
+    padding-left: 35px;
+  }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .muthafuckin-bars{
+    width: 100%;
+  }
+
+  .info-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-info {
+    margin: 30px 0 20px 0;
+    text-align: center;
+  }
+
+  .only-donuts {
+    flex-wrap: wrap;
+  }
+
+  .button-container {
+    margin: 20px 0;
+    justify-content: space-around;
+    width: 60%;
+  }
+
+  .info-navigation {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 12px;
+  }
+
+  .info-navigation-item {
+    margin-right: 5px;
+  }
+
+  .bar-graph {
+    width: 65%;
+  }
+
+  .bottom {
+    width: 77%
+  }
+
+  .bottom-different {
+    width: 95%;
+  }
+
+  .copy-button {
+    width: 17%;
+  }
+}
+
+@media screen and (max-width: 535px) {
+
+  .bar-graph {
+    width: 58%;
+  }
+
+  .bottom {
+    width: 73%;
+  }
+
+  .bottom-different {
+    width: 95%;
+  }
+
+  td:nth-child(even) {
+    width: 80%;
+  }
+  
+  td:nth-child(odd) {
+    width: 20%;
+  }
+
+  .table-edit {
+    width: 50%;
+  }
+
+  .lafawnduh {
+    width: 25%;
+    height: 25%;
+    
+  }
+}
+
 
 
 
