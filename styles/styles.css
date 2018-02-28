@@ -10,21 +10,13 @@ main {
   box-sizing: border-box;
 }
 
-.left-side {
-
-}
-
-.right-side {
-
-}
-
 /*=====================================================
       Nav-Bar Formatting
 =======================================================*/
 
 .nav-bar-main {
   width: 100%;
-  height: 200vw;
+  height: 100%;
   background: #374050;
   color: #acb5c5;
 }
@@ -205,7 +197,7 @@ main {
   display: grid;
   grid-template-columns: 60px 1fr 60px 60px 60px;
   border: solid 1px #f1f3f5;
-  color: #afb4bb;
+  color: #9499a0;
 }
 
 .search-bar-button {
@@ -222,7 +214,7 @@ main {
   justify-content: center;
   align-items: center;
   outline: none; 
-  color: #afb4bb;
+  color: #9499a0;
 }
 
 .access-nav-bar:hover {
@@ -231,11 +223,21 @@ main {
   background: #fd2c7a;
 }
 
-.search-bar-bar {
+.search-bar-input {
   width: 100%;
   height: 60px;
+  font-size: 16px;
   outline-color: #fd2c7a;
-  color: #afb4bb;
+  color: #9499a0;
+  background-image: url(../images/search.svg);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: 10px 50%;
+  padding-left: 35px;
+}
+
+.search-bar-input::placeholder {
+  color: #d2d0d6;
 }
 
 .home {
@@ -244,7 +246,7 @@ main {
   background: #fff;
   border: solid 1px #f1f3f5;
   outline: none;
-  color: #afb4bb;
+  color: #9499a0;
 }
 
 .home:hover {
@@ -259,7 +261,7 @@ main {
   background: #fff;
   border: solid 1px #f1f3f5;
   outline: none; 
-  color: #afb4bb;
+  color: #9499a0;
 }
 
 .messages:hover {
@@ -274,7 +276,7 @@ main {
   background: #fff;
   border: solid 1px #f1f3f5;
   outline: none;
-  color: #afb4bb;
+  color: #9499a0;
 }
 
 .matches:hover {
@@ -290,7 +292,7 @@ main {
 
 .info {
   width: 100%;
-  height: 200px;
+  height: 180px;
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -326,8 +328,8 @@ main {
 .button-container {
   display: flex;
   justify-content: space-around;
-  width: 300px;
-  margin: 40px 0 0 0;
+  width: 230px;
+  margin: 40px 40px 0 0;
 }
 
 .info-button {
@@ -362,11 +364,12 @@ main {
   justify-content: center;
   align-items: center;
   margin: 0;
-  color: #9ea4b0;
+  color: #9da2af;
 }
 
 .info-navigation {
   display: flex;
+  font-size: 14px;
   justify-content: flex-start;
   color: #afb4bb;
   margin: 0 30px 0 30px;
@@ -374,7 +377,7 @@ main {
 
 .info-navigation-item {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 40px;
   border: solid 4px #fff;
   height: 30px;
 }
@@ -391,7 +394,7 @@ main {
 
 .stats {
   width: 100%;
-  height: 420px;
+  height: 400px;
   background: #edf2f6;
   display: flex;
   justify-content: space-around;
@@ -464,6 +467,35 @@ main {
   padding: 10px;
   border: 2px solid #e2e5e8;
   color: #525c6c;
+  font-weight: 600;
+}
+
+.border {
+  
+}
+
+.stats-border {
+  width: 100%;
+  background: #edf2f6;
+  color: #d9dee3;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-arrow {
+  display: inline-block;
+  background: #fff;
+  margin: 0 1%;
+  border: solid 2px #d9dee3;
+  border-radius: 50%;
+}
+
+hr {
+  width: 44%;
+  display: inline-block;
+  border: 1px solid #d9dee3;
 }
 
 /*=====================================================
@@ -471,7 +503,7 @@ main {
 =======================================================*/
 
 .muthafuckin-bars {
-  width: 54%;
+  width: 700px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -504,7 +536,7 @@ main {
 
 .in-depth {
   width: 100%;
-  height: 880px;
+  height: 100%;
   background: #edf2f6;
   display: flex;
   justify-content: space-between;
@@ -522,10 +554,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5%;
 }
 
 .profile-table {
-  width: 90%;
+  width: 85%;
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -669,7 +702,7 @@ td:nth-child(odd) {
 
 .bottom {
   height: 45px;
-  width: 70%;
+  width: 73%;
   background: #fff;
   line-height: 45px;
   color: #727078;
@@ -683,7 +716,7 @@ td:nth-child(odd) {
 }
 
 .bottom-different {
-  width: 100%;
+  width: 95%;
 }
 
 .copy-button {
@@ -698,9 +731,19 @@ td:nth-child(odd) {
   color: #fff;
 }
 
+/*=====================================================
+      Media-Queries
+=======================================================*/
 
-
-
+@media screen and (max-width: 1080px) {
+  main {
+    display: block;
+  }
+  
+  .left-side {
+    display: none;
+  }
+}
 
 
 
