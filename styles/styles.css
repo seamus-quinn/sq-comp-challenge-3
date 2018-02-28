@@ -406,7 +406,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border-right: 1px solid;
   height: 300px;
   margin-top: 50px;
 }
@@ -460,10 +459,43 @@ main {
 
 .donut-button {
   -webkit-appearance: none;
+  font-size: 14px;
   border-radius: 50px;
   padding: 10px;
   border: 2px solid #e2e5e8;
   color: #525c6c;
+}
+
+/*=====================================================
+      Bar Graph Formatting
+=======================================================*/
+
+.muthafuckin-bars {
+  width: 54%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.bar-graph {
+  margin-left: 3%;
+}
+
+.bar-graph-image {
+  width: 90%;
+}
+
+.bar-button {
+  -webkit-appearance: none;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  border: 2px solid #e2e5e8;
+  color: #525c6c;
+  margin-bottom: 40px;
 }
 
 /*=====================================================
