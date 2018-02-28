@@ -14,7 +14,7 @@ main {
       Nav-Bar Formatting
 =======================================================*/
 
-.nav-bar-main {
+.nav-bar {
   width: 100%;
   height: 100%;
   background: #374050;
@@ -34,7 +34,7 @@ main {
   font-weight: 300;
 }
 
-.profile-div {
+.profile-picture {
   width: 70px;
   height: 70px;
   background-image: url(../images/kip.jpg);
@@ -44,7 +44,7 @@ main {
   margin-bottom: 10px;
 }
 
-.name-menu {
+.profile-name {
   margin-top: 6px;
 }
 
@@ -118,7 +118,7 @@ main {
   color: #586275;
 }
 
-.form {
+.type-form {
   display: flex;
   justify-content: flex-start;
   margin-top: 5px;
@@ -184,8 +184,6 @@ main {
   margin-left: 20px;
   margin-top: 10px;
 }
-
-
 
 /*=====================================================
       Search-Bar Formatting
@@ -285,7 +283,6 @@ main {
   border: none;
 }
 
-
 /*=====================================================
       Info Formatting
 =======================================================*/
@@ -304,18 +301,18 @@ main {
   justify-content: space-between;
 }
 
-.info-info {
+.position {
   margin: 40px 0 40px 30px;
 }
 
-.info-header {
+.position-title {
   margin: 0 0 10px 0;
   font-weight: 400;
   font-size: 26px;
   color: #68686a;
 }
 
-.info-sub-header {
+.position-location {
   color: #bfc0c5;
   font-size: 14px;
 }
@@ -405,7 +402,7 @@ main {
       Donut Formatting
 =======================================================*/
 
-.muthafuckin-donuts {
+.donut-graphs {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -413,7 +410,7 @@ main {
   margin: 70px 0;
 }
 
-.only-donuts {
+.donut-container {
   display: flex;
   flex-direction: row;
   margin-bottom: 50px
@@ -456,7 +453,7 @@ main {
   border-radius: 50%;
 }
 
-.donut-button-div {
+.donut-button-container {
   display: flex;
   justify-content: center;
 }
@@ -471,7 +468,7 @@ main {
   font-weight: 600;
 }
 
-.stats-border {
+.border-container {
   width: 100%;
   background: #edf2f6;
   color: #d9dee3;
@@ -499,7 +496,7 @@ hr {
       Bar Graph Formatting
 =======================================================*/
 
-.muthafuckin-bars {
+.bar-graph {
   width: 700px;
   display: flex;
   flex-direction: column;
@@ -508,7 +505,7 @@ hr {
   margin-top: 50px;
 }
 
-.bar-graph {
+.bar-graph-container {
   margin-left: 3%;
 }
 
@@ -528,10 +525,10 @@ hr {
 }
 
 /*=====================================================
-      In-Depth Formatting
+      Bio-Contact Formatting
 =======================================================*/
 
-.in-depth {
+.bio-contact {
   width: 100%;
   height: 100%;
   background: #edf2f6;
@@ -539,7 +536,7 @@ hr {
   justify-content: space-between;
 }
 
-.profile-description {
+.bio {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -547,14 +544,14 @@ hr {
   margin-top: 20px;
 }
 
-.table-div {
+.table-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 5%;
 }
 
-.profile-table {
+.bio-table {
   width: 85%;
   border-collapse: collapse;
   border-spacing: 0;
@@ -597,7 +594,7 @@ td:nth-child(odd) {
   width: 150px;
 }
 
-.bio {
+.biography {
   vertical-align: top;
 }
 
@@ -605,14 +602,14 @@ td:nth-child(odd) {
   padding: 25px 0;
 }
 
-.lafawnduh {
+.best-match-image {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin-right: 15px;
 }
 
-.lafawnduh-td {
+.best-match {
   display: flex;
   align-items: center;
 }
@@ -622,10 +619,10 @@ td:nth-child(odd) {
 }
 
 /*=====================================================
-      Social Formatting
+      Contact Formatting
 =======================================================*/
 
-.social {
+.contact {
   width: 40%;
   height: 100%;
   margin: 20px 40px 20px 20px;
@@ -634,7 +631,7 @@ td:nth-child(odd) {
 }
 
 
-.social-button {
+.contact-button {
   -webkit-appearance: none;
   width: 100%;
   height: 45px;
@@ -643,7 +640,7 @@ td:nth-child(odd) {
   border: none;
 }
 
-.match-div,
+.match-container,
 .mobile-div,
 .contact-div {
   width: 100%;
@@ -683,7 +680,7 @@ td:nth-child(odd) {
   color: #fff;
 }
 
-.social-header {
+.contact-header {
   color: #727078;
   font-size: 18px;
   margin: 20px 0 10px 0;
@@ -695,15 +692,15 @@ td:nth-child(odd) {
   margin-right: 3px;
 }
 
-.social-text {
+.contact-text {
   padding: 0 4px;
 }
 
-.top {
+.description {
   margin-bottom: 10px
 }
 
-.bottom {
+.user-link {
   height: 45px;
   width: 73%;
   background: #fff;
@@ -718,7 +715,7 @@ td:nth-child(odd) {
   overflow-x: auto;
 }
 
-.bottom-different {
+.alt-link {
   width: 95%;
 }
 
@@ -743,7 +740,7 @@ td:nth-child(odd) {
     display: block;
   }
   
-  .left-side {
+  .nav-bar {
     display: none;
   }
 
@@ -752,16 +749,16 @@ td:nth-child(odd) {
     align-items: center;
   }
 
-  .in-depth {
+  .bio-contact {
     flex-direction: column;
     align-items: center;
   }
 
-  .social {
+  .contact {
     width: 70%;
   }
 
-  .social-button {
+  .contact-button {
     text-align: center;
   }
 
@@ -771,11 +768,11 @@ td:nth-child(odd) {
     margin-right: 2%;
   }
 
-  .bottom {
+  .user-link {
     width: 77%;
   }
 
-  .bottom-different {
+  .alt-link {
     width: 97%;
   }
 
@@ -818,12 +815,12 @@ td:nth-child(odd) {
     align-items: center;
   }
 
-  .info-info {
+  .position {
     margin: 30px 0 20px 0;
     text-align: center;
   }
 
-  .only-donuts {
+  .donut-container {
     flex-wrap: wrap;
   }
 
@@ -848,11 +845,11 @@ td:nth-child(odd) {
     width: 65%;
   }
 
-  .bottom {
+  .user-link {
     width: 77%
   }
 
-  .bottom-different {
+  .alt-link {
     width: 95%;
   }
 
@@ -867,11 +864,11 @@ td:nth-child(odd) {
     width: 58%;
   }
 
-  .bottom {
+  .user-link {
     width: 73%;
   }
 
-  .bottom-different {
+  .alt-link {
     width: 95%;
   }
 
@@ -887,7 +884,7 @@ td:nth-child(odd) {
     width: 50%;
   }
 
-  .lafawnduh {
+  .best-match-image {
     width: 25%;
     height: 25%;
     

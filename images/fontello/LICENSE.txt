@@ -1,4 +1,4 @@
-Font license info
+Font license header
 
 
 ## Linecons
